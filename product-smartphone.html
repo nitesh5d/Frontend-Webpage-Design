@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="smartphone-style.css" />
+
+    <link href="all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/logo/logo_square-small.png"
+      type="image/x-icon"
+    />
+
+    <title>Ravage Mobiles | Smartphones</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <div class="logo-nav">
+          <div class="section-logo">
+            <a href="index.html">
+              <img
+                src="assets/logo/logo-small.png"
+                alt="Ravage Mobiles"
+                style="width: 120px; height: 45px"
+              />
+            </a>
+          </div>
+          <div class="nav">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li id="headerProductList">
+                <a
+                  class="active"
+                  style="font-weight: bold"
+                  id="headerProducts"
+                  href="#"
+                  >Products<i
+                    class="fa fa-caret-down"
+                    style="margin-left: 4px"
+                  ></i
+                ></a>
+                <div id="productDropDown">
+                  <a style="font-weight: bold" href="product-smartphone.html"
+                    >Smartphone</a
+                  >
+                  <a href="#">SmartWatch</a>
+                  <a href="#">Headphone</a>
+                  <a href="#">Phone Cases</a>
+                </div>
+              </li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="search-profile-cart">
+          <div class="searchbar" id="searchBarWrap">
+            <input
+              type="search"
+              name="Search"
+              id="searchInputBar"
+              placeholder="Search items..."
+            />
+            <div class="searchBarBtn">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+
+          <hr />
+          <div class="cart-section">
+            <a href="#" class="cart-btn" id="header-cart-btn">
+              <div>
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+            </a>
+          </div>
+          <div class="profile-section">
+            <a href="#" class="profile-btn" id="header-profile-btn">
+              <div>
+                <i class="fas fa-user"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="product-smartphone-script.js"></script>
+  </body>
+</html>

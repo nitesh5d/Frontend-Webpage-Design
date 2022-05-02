@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #fcfcfc;
+  position: fixed;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 5px 0px #b6b6b6d1;
+  z-index: 90;
+}
+
+.header-content {
+  width: 92vw;
+  padding: 0 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .header-content .logo-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header .header-content .nav {
+  margin-left: 30px;
+}
+
+.header .header-content .nav ul {
+  display: inline;
+}
+
+.header .header-content .nav ul li {
+  display: inline-block;
+}
+
+#productDropDown {
+  position: absolute;
+  transition: 0.2s all;
+  /* transform: translateY(100px); */
+  display: none;
+  box-shadow: 0 1px 5px 0 #b6b6b6d1;
+  margin-top: 35px;
+}
+
+#productDropDown a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: #012443;
+  font-family: Roboto;
+  background-color: #fcfcfc;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
+  line-height: 2;
+}
+
+#productDropDown a:hover {
+  color: rgb(2, 0, 27);
+}
+
+/* #headerProductList:hover #productDropDown {
+  display: block;
+  transform: translateY(0);
+  transition: 0.2s all;
+} */
+
+.header .header-content .nav ul li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  color: #012443;
+  font-family: Roboto;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
+}
+
+.header .header-content .nav ul li a i {
+  color: #012443;
+  font-size: 0.9rem;
+}
+
+.search-profile-cart {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-profile-cart .search-section {
+  margin: 0 30px 0 0;
+}
+
+.search-profile-cart .search-btn {
+  font-size: 1rem;
+  color: #012443;
+  text-decoration: none;
+}
+
+.search-profile-cart .search-btn div:hover {
+  background-color: #f1f1f1;
+}
+
+.search-profile-cart .search-btn div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.search-profile-cart hr {
+  background-color: #012443;
+  border: none;
+  width: 2px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.search-profile-cart .cart-section {
+  margin: 0 20px 0 30px;
+}
+
+.search-profile-cart .cart-btn {
+  font-size: 1rem;
+  color: #012443;
+  text-decoration: none;
+}
+
+.search-profile-cart .cart-btn div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.search-profile-cart .cart-btn div:hover {
+  background-color: #ebebeb;
+}
+
+.search-profile-cart .profile-btn {
+  font-size: 1rem;
+  color: #012443;
+  text-decoration: none;
+}
+
+.search-profile-cart .profile-btn div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.search-profile-cart .profile-btn div:hover {
+  background-color: #ebebeb;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 70%;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+
+.searchbar #searchInputBar {
+  width: 82%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #01244379;
+  font-size: 1rem;
+  font-family: Roboto;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-left: 10px;
+}
+
+.searchbar #searchInputBar:focus {
+  outline: none;
+  border-color: #012443;
+  transition: 0.2s ease-in;
+}
+
+.searchbar .searchBarBtn {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin: 0 0 0 5px;
+  transition: 0.2s ease-out;
+}
+
+.searchbar .searchBarBtn:hover {
+  transition: 0.2s ease-out;
+  background-color: #ebebeb;
+}
+
+.searchbar .searchBarBtn i {
+  font-size: 1rem;
+  color: #012443;
+}
